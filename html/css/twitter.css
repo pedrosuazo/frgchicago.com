@@ -1,0 +1,92 @@
+/* 
+* Example style!
+* You can do whatever the hell you want on your site :-)
+*/
+
+#example1 {width:250px;}
+#example1 ul {    list-style-type: none;     margin-left: -38px;}
+
+
+
+.user, .tweet, .timePosted {
+  float:left;
+}
+
+.user {
+  width:100%;
+}
+
+.tweet {
+  width:100%;
+  margin-bottom:0px;
+  
+}
+.tweet img {width: 15px; padding-right:5px;}
+.tweet a {color: #6b635b;}
+
+.timePosted {
+  width:100%;
+  font-style:italic;
+  color:#6b635b;
+  margin-bottom: 2px;
+font-size: 11px;
+}
+
+.user {
+  clear:left;
+}
+
+.user a {
+ width: 100px;
+}
+
+.user span span {
+  width:100px;
+  display:none;
+  margin-top:10px;
+}
+
+.user img, .user a > span {
+  float:left;
+}
+.user img {display:none;}
+
+.interact {
+  float:left;
+  width:100%;
+  margin-top:-7px;
+}
+
+.interact a {
+  margin-right:7px;
+  float:left;
+}
+.interact a:hover {
+	color:white;
+	text-decoration:none;
+
+}
+
+.user a > span {
+	color:#97918c;
+  
+
+  
+}
+
+.media img {
+  max-width:250px;
+  max-height:250px;
+}
+
+#linkage {
+  position:fixed;
+  top:0px;
+  right:0px;
+  background-color:#3d3d3d;
+  color:#ffffff;
+  text-decoration:none;
+  padding:5px;
+  width:10%;
+  font-family:arial;
+}
